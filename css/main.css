@@ -427,11 +427,26 @@ figure {
 }
 
 
-
-
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+	header div:last-child .col-1-2, #services .col-1-4 {
+		width: 100%;
+		padding-right: 0;
+	}
 	
+	form {
+		padding-left: 0;
+	}
+	
+	form .col-1 {
+		padding-right: 0 !important;
+	}
+	
+	nav ul {
+		display: inline-block
+	}
 	
 }
+
+
+
+
